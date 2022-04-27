@@ -1,0 +1,6 @@
+@import url(../vendor/normalize.css);
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
