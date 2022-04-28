@@ -24,3 +24,8 @@
 @import url(../blocks/intro/__description/intro__description.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+
+/*GALLERY*/
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__grid-container/gallery__grid-container.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
