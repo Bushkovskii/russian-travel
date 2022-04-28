@@ -1,0 +1,11 @@
+.intro__list-item {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.intro__list-item span {
+  font-weight: 700;
+}
