@@ -1,0 +1,9 @@
+.places__grid-container {
+  margin: 0;
+  display: grid;
+  grid-template-areas: 'kosa'
+                      'Kolsky'
+                      'Altai'
+                      'Baikal'
+                      'Karelia';
+}

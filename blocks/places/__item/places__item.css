@@ -1,0 +1,38 @@
+.places__item {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 1fr 460px;
+  grid-template-areas: 'title link'
+                        'img desc'
+                        'img desc';
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+.places__item img {
+  margin: 0;
+}
+
+.places__item h2 {
+  color: #ffffff;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  margin: 0;
+}
+
+.places__item p {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 163%;
+  align-self: start;
+  grid-area: desc;
+}
+
+.places__item a {
+  align-self: end;
+}
