@@ -4,8 +4,8 @@
   line-height: 100px;
   color: #ffffff;
   margin: 56px auto 92px auto;
-  width: 50%;
-  height: 200px;
+  max-width: 720px;
+  line-height: 104%;
   text-align: center;
   font-family: 'Inter';
 }
