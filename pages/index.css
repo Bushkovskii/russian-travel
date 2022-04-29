@@ -29,3 +29,8 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__grid-container/gallery__grid-container.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
+
+/*PLACES*/
+@import url(../blocks/places/places.css);
+@import url(../blocks/places/__grid-container/places__grid-container.css);
+@import url(../blocks/places/__item/places__item.css);
