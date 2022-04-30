@@ -9,3 +9,10 @@
   text-align: center;
   font-family: 'Inter';
 }
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
