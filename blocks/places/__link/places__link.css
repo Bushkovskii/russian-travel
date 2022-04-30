@@ -1,0 +1,17 @@
+.places__link {
+  align-self: end;
+  font-family: 'Inter';
+}
+
+.places__link a {
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  
+}
+
+.places__link span {
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 12px;
+}

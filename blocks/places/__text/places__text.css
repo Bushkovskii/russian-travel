@@ -1,0 +1,8 @@
+.places__text {
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 29px;
+  align-self: flex-start;
+  color: #ffffff;
+  max-width: 100%;
+}

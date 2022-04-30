@@ -1,9 +1,6 @@
-.places__grid-container {
-  margin: 0;
+/*.places__grid-container {
   display: grid;
-  grid-template-areas: 'kosa'
-                      'Kolsky'
-                      'Altai'
-                      'Baikal'
-                      'Karelia';
-}
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  row-gap: 80px;
+}*/
