@@ -1,0 +1,28 @@
+.text {
+  width: 560px;
+  position: absolute;
+  top: 245px;
+  left: 312px;
+}
+
+@media screen and (max-width: 1024px) {
+  .text{
+    top: 195px;
+    left: 232px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    top: 115px;
+    left: 104px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .text {
+    width: 288px;
+    top: 33px;
+    left: 16px;
+  }
+}

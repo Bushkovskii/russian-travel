@@ -1,0 +1,15 @@
+.cover {
+  max-width: 1280px;
+  /*background-image: url(../../images/cover/__background.png);
+  background-size: cover;
+  box-sizing: border-box;*/
+  margin: 0 48px 0 48px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover{
+    margin: 0;
+  }
+}
