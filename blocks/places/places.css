@@ -6,3 +6,15 @@
   grid-template-rows: auto;
   row-gap: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin: 92px 48px 92px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 88px 24px 90px 24px;
+  }
+}

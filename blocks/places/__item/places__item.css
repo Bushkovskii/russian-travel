@@ -1,10 +1,27 @@
 .places__item {
   margin: 0;
   display: grid;
+  /*grid-template-columns: minmax(460px, 320px) minmax(483px, 288px); Запасной вариант*/
   grid-template-columns: 460px 483px;
   grid-template-rows: min-content 1fr;
   grid-template-areas: 'title link'
                         'image text';
   row-gap: 48px;
   column-gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__item {
+    grid-template-columns: 440px 456px;
+    grid-template-rows: min-content 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__item {
+    grid-template-columns: 340px 352px;
+    grid-template-rows: min-content 1fr;
+    column-gap: 28px;
+  }
 }
