@@ -1,6 +1,7 @@
 .places__link {
   align-self: end;
   font-family: 'Inter';
+  grid-area: link;
 }
 
 .places__link a {
@@ -14,4 +15,11 @@
   color: #aaaaaa;
   font-size: 12px;
   line-height: 12px;
+}
+
+@media screen and (max-width: 320px) {
+  .places__link {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

@@ -1,7 +1,8 @@
 .places__item {
   margin: 0;
   display: grid;
-  /*grid-template-columns: minmax(460px, 320px) minmax(483px, 288px); Запасной вариант*/
+  max-width: 1280px;
+  /*grid-template-columns: minmax(460px, 320px) minmax(483px, 288px); запасной вариант*/
   grid-template-columns: 460px 483px;
   grid-template-rows: min-content 1fr;
   grid-template-areas: 'title link'
@@ -23,5 +24,16 @@
     grid-template-columns: 340px 352px;
     grid-template-rows: min-content 1fr;
     column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__item {
+    grid-template-columns: 320px;
+    /*grid-template-rows: min-content 1fr;*/
+    grid-template-areas: 'title'
+                          'link'
+                          'image'
+                          'text';
   }
 }

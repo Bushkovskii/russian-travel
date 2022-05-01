@@ -4,15 +4,25 @@
   line-height: 29px;
   align-self: flex-start;
   color: #ffffff;
-  max-width: 100%;
-}
-
-.places__text p {
   margin-top: 0;
+  margin-bottom: 26px;
+  grid-area: text;
 }
 
 @media screen and (max-width: 768px) {
   .places__text {
     font-size: 16px;
+  }
+}
+
+.places__description {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .places__description {
+    max-width: 288px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
