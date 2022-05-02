@@ -18,5 +18,8 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__point_place_yaroslavl {
+    top: 95.3px;
+    left: 85.6px;
+  }
 }

@@ -18,5 +18,8 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__point_place_perm {
+    top: 78.4px;
+    left: 183.6px;
+  }
 }

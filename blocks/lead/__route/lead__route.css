@@ -24,5 +24,10 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__route {
+  max-width: 288px;
+  max-height: 73px;
+  top: 42px;
+  left: 13.5px;
+  }
 }

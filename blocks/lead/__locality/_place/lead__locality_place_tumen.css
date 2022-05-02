@@ -19,5 +19,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__locality_place_tumen {
+    top: 87.6px;
+    left: 202px;
+    max-width: 17px;
+  }
 }

@@ -18,5 +18,8 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__point_place_omsk {
+    top: 88.3px;
+    left: 236.4px;
+  }
 }

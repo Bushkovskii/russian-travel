@@ -19,5 +19,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__locality_place_ulanude {
+    top: 87.6px;
+    left: 292px;
+    max-width: 20.34px;
+  }
 }

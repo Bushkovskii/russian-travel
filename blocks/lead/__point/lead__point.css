@@ -2,11 +2,6 @@
   position: absolute;
 }
 
-/*.lead__point_place_pskov {
-  top: 219.7px;
-  left: 37px;
-}*/
-
 @media screen and (max-width: 1024px) {
   .lead__point {
     max-width: 6.5px;
@@ -21,6 +16,6 @@
 
 @media screen and (max-width: 320px) {
   .lead__point {
-    
+    max-width: 2.27px;
   }
 }

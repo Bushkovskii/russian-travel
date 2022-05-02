@@ -16,5 +16,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__locality_place_manturovo {
+    top: 72.5px;
+    left: 118px;
+    max-width: 24.5px;
+  }
 }

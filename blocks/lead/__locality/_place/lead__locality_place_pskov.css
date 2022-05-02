@@ -19,5 +19,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__locality_place_pskov {
+    top: 76.6px;
+    left: 7.7px;
+    max-width: 13px;
+  }
 }

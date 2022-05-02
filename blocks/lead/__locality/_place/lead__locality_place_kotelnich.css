@@ -19,5 +19,9 @@
 }
 
 @media screen and (max-width: 320px) {
-  
+  .lead__locality_place_kotelnich {
+    top: 83px;
+    left: 135px;
+    max-width: 27.5px;
+  }
 }
