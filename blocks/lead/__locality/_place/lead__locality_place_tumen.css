@@ -11,7 +11,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__locality_place_tumen {
+    top: 210px;
+    left: 485px;
+    max-width: 41px;
+  }
 }
 
 @media screen and (max-width: 320px) {

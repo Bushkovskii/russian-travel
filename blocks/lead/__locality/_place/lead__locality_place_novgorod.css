@@ -11,7 +11,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__locality_place_novgorod {
+    top: 70px;
+    left: 72px;
+    max-width: 51px;
+  }
 }
 
 @media screen and (max-width: 320px) {

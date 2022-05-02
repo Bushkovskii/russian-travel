@@ -11,7 +11,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__locality_place_perm {
+    top: 176px;
+    left: 428px;
+    max-width: 31px;
+  }
 }
 
 @media screen and (max-width: 320px) {

@@ -15,7 +15,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__route {
+    max-width: 691px;
+    max-height: 175px;
+    top: 100px;
+    left: 32px;
+  }
 }
 
 @media screen and (max-width: 320px) {

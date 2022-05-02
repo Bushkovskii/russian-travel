@@ -7,18 +7,20 @@
   left: 37px;
 }*/
 
-/*.lead__point:nth-of-type(2) {
-  
+@media screen and (max-width: 1024px) {
+  .lead__point {
+    max-width: 6.5px;
+  }
 }
 
-.lead__point:nth-of-type(3) {
-  
+@media screen and (max-width: 768) {
+  .lead__point {
+    max-width: 545px;
+  }
 }
 
-.lead__point:nth-of-type(4) {
-  
+@media screen and (max-width: 320px) {
+  .lead__point {
+    
+  }
 }
-
-.lead__point:nth-of-type(5) {
-  
-}*/

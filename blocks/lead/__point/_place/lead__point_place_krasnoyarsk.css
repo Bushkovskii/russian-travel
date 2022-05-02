@@ -11,7 +11,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__point_place_krasnoyarsk {
+    top: 169px;
+    left: 672px;
+  }
 }
 
 @media screen and (max-width: 320px) {

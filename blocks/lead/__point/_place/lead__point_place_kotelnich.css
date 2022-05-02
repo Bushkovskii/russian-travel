@@ -11,7 +11,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__point_place_kotelnich {
+    top: 213px;
+    left: 335px;
+  }
 }
 
 @media screen and (max-width: 320px) {

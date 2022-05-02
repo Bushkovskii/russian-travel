@@ -11,7 +11,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__locality_place_yaroslavl {
+    top: 228px;
+    left: 218px;
+    max-width: 57px;
+  }
 }
 
 @media screen and (max-width: 320px) {

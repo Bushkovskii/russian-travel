@@ -8,7 +8,10 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+  .lead__point_place_manturovo {
+    top: 182px;
+    left: 274px;
+  }
 }
 
 @media screen and (max-width: 320px) {
