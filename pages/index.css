@@ -13,10 +13,40 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/lead/__point/lead__point.css);
 @import url(../blocks/lead/__route/lead__route.css);
-@import url(../blocks/lead/__locality/lead__locality.css);
 @import url(../blocks/lead/__container/lead__container.css);
+@import url(../blocks/lead/__text/lead__text.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__background/lead__background.css);
+/*point*/
+@import url(../blocks/lead/__point/lead__point.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_pskov.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_glazov.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_kotelnich.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_krasnoyarsk.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_manturovo.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_novgorog.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_omsk.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_perm.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_tumen.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_tver.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_ulanude.css);
+@import url(../blocks/lead/__point/_place/lead__point_place_yaroslavl.css);
+/*locality*/
+@import url(../blocks/lead/__locality/lead__locality.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_pskov.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_glazov.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_kotelnich.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_krasnoyarsk.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_manturovo.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_novgorod.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_omsk.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_perm.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_tumen.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_tver.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_ulanude.css);
+@import url(../blocks/lead/__locality/_place/lead__locality_place_yaroslavl.css);
+
 
 /*INTRO*/
 @import url(../blocks/intro/intro.css);
