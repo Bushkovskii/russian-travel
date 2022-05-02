@@ -4,3 +4,20 @@
   top: 128.6px;
   left: 41.5px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__route {
+    max-width: 835px;
+    max-height: 211px;
+    top: 121px;
+    left: 39px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 320px) {
+  
+}

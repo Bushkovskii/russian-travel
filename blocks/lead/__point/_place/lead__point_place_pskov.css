@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__point_place_pskov {
+    top: 207px;
+    left: 35px;
+  }
 }
 
 @media screen and (max-width: 768px) {

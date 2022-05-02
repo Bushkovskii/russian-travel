@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__locality_place_novgorod {
+    top: 85px;
+    left: 87px;
+  }
 }
 
 @media screen and (max-width: 768px) {

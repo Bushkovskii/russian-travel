@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__point_place_ulanude {
+    top: 234px;
+    left: 872px;
+  }
 }
 
 @media screen and (max-width: 768px) {

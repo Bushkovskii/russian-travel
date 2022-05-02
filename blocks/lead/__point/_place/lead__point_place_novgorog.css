@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__point_place_novgorod {
+    top: 118px;
+    left: 115px;
+  }
 }
 
 @media screen and (max-width: 768px) {

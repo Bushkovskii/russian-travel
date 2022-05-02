@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__locality_place_omsk {
+    top: 278px;
+    left: 683px;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__locality_place_ulanude {
+    top: 254px;
+    left: 846px;
+  }
 }
 
 @media screen and (max-width: 768px) {

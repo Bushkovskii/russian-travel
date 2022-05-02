@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__locality_place_perm {
+    top: 213px;
+    left: 517px;
+  }
 }
 
 @media screen and (max-width: 768px) {

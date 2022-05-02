@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__locality_place_glazov {
+    top: 283px;
+    left: 515px;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -4,7 +4,10 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .lead__point_place_tumen {
+    top: 270px;
+    left: 586px;
+  }
 }
 
 @media screen and (max-width: 768px) {

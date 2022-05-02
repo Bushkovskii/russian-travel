@@ -3,3 +3,19 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 1024px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 320px) {
+  
+}
