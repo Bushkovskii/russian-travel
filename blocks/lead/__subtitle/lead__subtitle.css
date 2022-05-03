@@ -8,10 +8,17 @@
   font-family: 'Inter';
 }
 
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     width: 288px;
     font-size: 16px;
     line-height: 125%;
+    margin-bottom: 40px;
   }
 }
