@@ -86,3 +86,9 @@
 
 /*hover-link*/
 @import url(../blocks/hover-link/hover-link.css);
+
+/*FONTS*/
+@font-face {
+  font-family: 'Inter';
+  src: url("/fonts/Inter-ExtraLight.otf");
+}
