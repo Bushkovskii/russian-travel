@@ -1,16 +1,22 @@
 .gallery__item {
   margin: 0;
-  max-width: 100%;
+  width: 284px;
 }
 
-/*@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   .gallery__item {
-    max-width: 300px;
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .gallery__item {
-    max-width: 352px;
+    width: 352px;
   }
-}*/
+}
+
+@media screen and (max-width: 320px) {
+  .gallery__item {
+    width: 288px;
+  }
+}
