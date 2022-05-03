@@ -12,6 +12,7 @@
 }
 
 .places__link span {
+  display: block;
   color: #aaaaaa;
   font-size: 12px;
   line-height: 12px;
