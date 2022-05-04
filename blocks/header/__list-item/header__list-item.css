@@ -1,0 +1,7 @@
+.header__list-item {
+  display: inline;
+}
+
+.header__list-item:nth-of-type(2) {
+  margin-left: 18px;
+}
