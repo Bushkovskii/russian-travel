@@ -15,8 +15,6 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__route/lead__route.css);
-@import url(../blocks/lead/__container/lead__container.css);
-@import url(../blocks/lead/__text/lead__text.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__background/lead__background.css);
 /*point*/
@@ -88,7 +86,4 @@
 @import url(../blocks/hover-link/hover-link.css);
 
 /*FONTS*/
-@font-face {
-  font-family: 'Inter';
-  src: url("/fonts/Inter-ExtraLight.otf");
-}
+@import url(/fonts/inter.css);
