@@ -1,4 +1,4 @@
-.gallery__grid-container {
+/* .gallery__grid-container {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -27,4 +27,4 @@
     grid-template-rows: repeat(12, 1fr);
     gap: 12px;
   }
-}
+} */

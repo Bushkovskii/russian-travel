@@ -4,20 +4,6 @@
   grid-area: link;
 }
 
-.places__link a {
-  font-size: 18px;
-  line-height: 22px;
-  color: #ffffff;
-  
-}
-
-.places__link span {
-  display: block;
-  color: #aaaaaa;
-  font-size: 12px;
-  line-height: 12px;
-}
-
 @media screen and (max-width: 320px) {
   .places__link {
     margin-left: 16px;
