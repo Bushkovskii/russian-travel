@@ -1,8 +1,8 @@
 .cover__text {
-  width: 560px;
+  max-width: 560px;
   position: absolute;
   top: 245px;
-  left: 312px;
+  left: 360px;
 }
 
 .cover__text:hover {
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__text {
-    width: 288px;
+    max-width: 288px;
     top: 33px;
     left: 16px;
     bottom: 33px;

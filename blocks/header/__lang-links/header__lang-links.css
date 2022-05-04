@@ -1,7 +1,13 @@
 .header__lang-links {
   align-self: center;
-  margin: 0;
+  margin: 28px 48px 0 0;
   padding: 0;
   color: #ffffff;
   list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-links {
+    margin-right: 24px;
+  }
 }

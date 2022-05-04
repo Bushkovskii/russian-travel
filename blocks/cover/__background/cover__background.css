@@ -1,12 +1,15 @@
 .cover__background {
-  width: 1184px;
+  max-width: 1184px;
   background-color: #2A2C2F;
   opacity: 0.8;
+  display: inline-block;
+  margin: 0 48px 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__background {
     max-width: 1024px;
+    margin: 0;
   }
 }
 

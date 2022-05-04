@@ -1,5 +1,5 @@
 .places__item {
-  margin: 0;
+  margin: 0 148px 0 148px;
   display: grid;
   max-width: 1280px;
   /*grid-template-columns: minmax(460px, 320px) minmax(483px, 288px); запасной вариант*/
@@ -11,11 +11,20 @@
   column-gap: 40px;
 }
 
+.places__item:first-child {
+  margin-top: 92px;
+}
+
+.places__item:last-child {
+  margin-bottom: 92px;
+}
+
 @media screen and (max-width: 1024px) {
   .places__item {
     grid-template-columns: 440px 456px;
     grid-template-rows: min-content 1fr;
     column-gap: 32px;
+    margin: 0 48px 0 48px;
   }
 }
 
@@ -24,16 +33,33 @@
     grid-template-columns: 340px 352px;
     grid-template-rows: min-content 1fr;
     column-gap: 28px;
+    margin: 0 24px 0 24px;
+  }
+
+  .places__item:first-child {
+    margin-top: 88px;
+  }
+  
+  .places__item:last-child {
+    margin-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__item {
     grid-template-columns: 320px;
-    /*grid-template-rows: min-content 1fr;*/
     grid-template-areas: 'title'
                           'link'
                           'image'
                           'text';
+    margin: 0;
+  }
+
+  .places__item:first-child {
+    margin-top: 64px;
+  }
+  
+  .places__item:last-child {
+    margin-bottom: 66px;
   }
 }

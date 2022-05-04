@@ -1,18 +1,8 @@
 .footer {
-  margin: 0;
   display: flex;
   justify-content: space-between;
-  /* padding: 0 48px 0 48px;
-  margin-top: 92px;
-  margin-bottom: 24px; */
   align-items: flex-end;
 }
-
-/* @media screen and (max-width: 768px) {
-  .footer {
-    padding: 0 24px 0 24px;
-  }
-} */
 
 @media screen and (max-width: 320px) {
   .footer {
